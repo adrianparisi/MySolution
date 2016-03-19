@@ -9,4 +9,8 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>My package description.</description>
     </metadata>
+
+    <files>
+      <file src="..\MyLibrary\bin\Debug\MyLibrary.dll" target="lib\.NETFramework,Version=v3.5" />
+    </files>
 </package>
