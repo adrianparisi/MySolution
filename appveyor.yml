@@ -1,3 +1,7 @@
+artifacts:
+- path: '**\bin\Debug\*'
+  name: Files
+
 deploy:
   provider: NuGet
   api_key: 
