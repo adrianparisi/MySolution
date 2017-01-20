@@ -6,13 +6,10 @@ assembly_info:
   assembly_version: '{version}'
   assembly_file_version: '{version}'
 
+environment:
+  COVERALLS_REPO_TOKEN:
+    secure: ebBPnwwFR+v+p9FlTHpVoyZWqPFkz/hQsFN4BAKqiwDnWO9z7HNNpXzn95n2d3ZJ
+
 artifacts:
 - path: '**\bin\Debug\*'
   name: Files
-
-deploy:
-  provider: NuGet
-  api_key: 
-    secure: 87r0uo4hffh42r25i4a74074
-  skip_symbols: false
-  artifact: /.*\.nupkg/
