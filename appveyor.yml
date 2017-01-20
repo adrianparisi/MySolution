@@ -7,7 +7,10 @@ assembly_info:
   assembly_file_version: '{version}'
   
 before_build:
-  - nuget restore
+  nuget restore
+  
+build:
+  project: MySolution.sln
 
 environment:
   COVERALLS_REPO_TOKEN:
