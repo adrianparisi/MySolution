@@ -9,8 +9,8 @@ namespace MyLibrary.Tests
         {
             Class1 class1 = new Class1();
 
-            bool expected = class1.GetFalse();
-            bool actual = false;
+            bool expected = false;
+            bool actual = class1.GetFalse(); ;
 
             Assert.Equal(expected, actual);
         }
